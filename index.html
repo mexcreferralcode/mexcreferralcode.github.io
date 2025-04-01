@@ -17,185 +17,188 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-    <meta name="google-site-verification" content="_xOxqVSxN6Lj2RuIsi31Cobq6iFqc6v9trlxKE8vPEM" />
+    <meta
+      name="google-site-verification"
+      content="_xOxqVSxN6Lj2RuIsi31Cobq6iFqc6v9trlxKE8vPEM"
+    />
     <meta name="yandex-verification" content="8a7655e8be730914" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <!-- Font Awesome link -->
     <style>
-      /* General Styles */
-      body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #1C1C1C; /* Dark background */
-          color: #FFFFFF;
-      }
-      h1, h2, h3, h4, p, ul, ol {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-      /* Header */
-      header {
-          background-color: #002F6C; /* MEXC blue */
-          color: white;
-          padding: 15px 0;
-          text-align: center;
+            /* General Styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #1C1C1C; /* Dark background */
+                color: #FFFFFF;
+            }
+            h1, h2, h3, h4, p, ul, ol {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
       }
 
-      /* Navigation Bar */
-      nav {
-          background-color: #003B73; /* Darker MEXC blue */
-          overflow: hidden;
-          margin-top: 10px;
-      }
-      nav a {
-          color: white;
-          padding: 14px 20px;
+            /* Header */
+            header {
+                background-color: #002F6C; /* MEXC blue */
+                color: white;
+                padding: 15px 0;
+                text-align: center;
+            }
+
+            /* Navigation Bar */
+            nav {
+                background-color: #003B73; /* Darker MEXC blue */
+                overflow: hidden;
+                margin-top: 10px;
+            }
+            nav a {
+                color: white;
+                padding: 14px 20px;
+                text-align: center;
+                text-decoration: none;
+                float: left;
+                display: block;
+            }
+            nav a:hover {
+                background-color: #000000; /* Black hover effect */
+            }
+
+            /* Hero Section */
+            .hero-section {
+                background-color: #003B73; /* MEXC blue */
+                color: white;
+                padding: 50px 0;
+                text-align: center;
+            }
+            .hero-section h1 {
+                font-size: 2.5rem;
+                margin-bottom: 15px;
+            }
+            .hero-section p {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+            }
+
+            /* Content Section */
+            .content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 30px;
+                background-color: #1C1C1C; /* Dark background */
+            }
+            .section {
+          width: 100%;
+          max-width: 400px;
+          margin: 15px;
+          padding: 20px;
+          background-color: #222222;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           text-align: center;
-          text-decoration: none;
-          float: left;
+      }
+            .section h2 {
+                color: #00A9E1; /* Light blue text for section titles */
+            }
+            .cta-btn {
           display: block;
-      }
-      nav a:hover {
-          background-color: #000000; /* Light blue hover effect */
-      }
-
-      /* Hero Section */
-      .hero-section {
-          background-color: #003B73; /* MEXC blue */
-          color: white;
-          padding: 50px 0;
+          width: 90%;
+          max-width: 400px;
+          padding: 15px;
+          background-color: #00A9E1; /* Light blue button */
+          color: black;
           text-align: center;
-      }
-      .hero-section h1 {
-          font-size: 2.5rem;
-          margin-bottom: 15px;
-      }
-      .hero-section p {
-          font-size: 1.2rem;
-          margin-bottom: 30px;
-      }
-
-      /* Content Section */
-      .content {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          padding: 30px;
-          background-color: #1C1C1C; /* Dark background */
-      }
-      .section {
-    width: 100%;
-    max-width: 400px;
-    margin: 15px;
-    padding: 20px;
-    background-color: #222222;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-      .section h2 {
-          color: #00A9E1; /* Light blue text for section titles */
-      }
-      .cta-btn {
-    display: block;
-    width: 90%; 
-    max-width: 400px; 
-    padding: 15px;
-    background-color: #00A9E1; /* Light blue button */
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    margin-top: 20px;
-    margin-left: auto;  
-    margin-right: auto; 
-}
-      .cta-btn:hover {
-          background-color: #0078A0; /* Darker blue on hover */
-      }
-
-      /* Table Styles */
-table {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #222222;
-    table-layout: auto;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #444444;
-    word-wrap: break-word;
-}
-
-th {
-    background-color: #003B73;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #2C2C2C;
-}
-
-tr:hover {
-    background-color: #3A3A3A;
-}
-
-/* Mobil uyumluluk */
-@media (max-width: 600px) {
-    table {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-}
-
-      /* Social Icons */
-      .social-icons {
-          text-align: center;
-          margin-top: 20px;
-      }
-      .social-icons a {
-          color: white;
-          font-size: 2rem;
-          margin: 0 15px;
           text-decoration: none;
+          border-radius: 5px;
+          font-size: 1.1rem;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
       }
-      .social-icons a:hover {
-          color: #00A9E1; /* Light blue on hover */
+            .cta-btn:hover {
+                background-color: #0078A0; /* Darker blue on hover */
+            }
+
+            /* Table Styles */
+      table {
+          width: 100%;
+          max-width: 800px;
+          margin: 20px auto;
+          border-collapse: collapse;
+          background-color: #222222;
+          table-layout: auto;
       }
 
-      /* Responsive Styles */
-      @media (max-width: 768px) {
-          .content {
-              flex-direction: column;
-              align-items: center;
+      th, td {
+          padding: 10px;
+          text-align: left;
+          border: 1px solid #444444;
+          word-wrap: break-word;
+      }
+
+      th {
+          background-color: #003B73;
+          color: white;
+      }
+
+      tr:nth-child(even) {
+          background-color: #2C2C2C;
+      }
+
+      tr:hover {
+          background-color: #3A3A3A;
+      }
+
+      /* Mobil uyumluluk */
+      @media (max-width: 600px) {
+          table {
+              width: 100%;
+              font-size: 14px;
           }
-          .section {
-              width: 80%;
-          }
-          .hero-section h1 {
-              font-size: 2rem;
-          }
-          .hero-section p {
-              font-size: 1rem;
+
+          th, td {
+              padding: 8px;
           }
       }
-      .center-img {
-    display: block;
-    margin: 0 auto;
-}
+
+            /* Social Icons */
+            .social-icons {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .social-icons a {
+                color: white;
+                font-size: 2rem;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            .social-icons a:hover {
+                color: #00A9E1; /* Light blue on hover */
+            }
+
+            /* Responsive Styles */
+            @media (max-width: 768px) {
+                .content {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .section {
+                    width: 80%;
+                }
+                .hero-section h1 {
+                    font-size: 2rem;
+                }
+                .hero-section p {
+                    font-size: 1rem;
+                }
+            }
+            .center-img {
+          display: block;
+          margin: 0 auto;
+      }
     </style>
   </head>
   <body>
@@ -222,9 +225,7 @@ tr:hover {
       >
     </div>
     <br />
-<img src="images/logo.png" alt="MEXC Logo" width="200" class="center-img">
-    <br />
-</div>
+    <img src="images/logo.png" alt="MEXC Logo" width="200" class="center-img" />
     <br />
     <h1>What is Mexc Referral Code and How to Use It?</h1>
     <br />
@@ -287,12 +288,15 @@ tr:hover {
       </tr>
       <tr>
         <td>Discounted Trading Fees</td>
-        <td>Enjoy reduced trading fees on Mexc. Up to %150 commission discount.</td>
+        <td>
+          Enjoy reduced trading fees on Mexc. Up to %150 commission discount.
+        </td>
       </tr>
       <tr>
         <td>Welcome Bonuses</td>
         <td>
-          Receive potential welcome bonuses when you sign up using the code. Up to 8000 USDT (Limited Time) Bonus.
+          Receive potential welcome bonuses when you sign up using the code. Up
+          to 8000 USDT (Limited Time) Bonus.
         </td>
       </tr>
       <tr>
@@ -334,7 +338,7 @@ tr:hover {
     <div class="content">
       <div class="section" id="how-it-works">
         <h2>How It Works</h2>
-    <br />
+        <br />
         <p>
           Signing up with the "mexc-thehub" referral code gives you immediate
           access to reduced trading fees and rewards on MEXC. It’s simple, just
@@ -354,23 +358,23 @@ tr:hover {
       </div>
       <div class="section" id="benefits">
         <h2>Benefits of Using "mexc-thehub"</h2>
-     <br />
+        <br />
         <ul>
           <li>
-            💰 Reduced Trading Fees: Enjoy lower fees on every trade you
-            make.Up to %150 commission discount.
+            💰 Reduced Trading Fees: Enjoy lower fees on every trade you make.Up
+            to %150 commission discount.
           </li>
           <li>
-            🎁 Airdrop Rewards and Bonus: Get free token rewards for signing up with
-            the referral code. Up to 8000 USDT (Limited Time) Bonus.
+            🎁 Airdrop Rewards and Bonus: Get free token rewards for signing up
+            with the referral code. Up to 8000 USDT (Limited Time) Bonus.
           </li>
           <li>
             🔑 VIP Benefits: Unlock VIP access to exclusive promotions and
             reduced fees.
           </li>
           <li>
-            🚀 Exclusive Promotions: Participate in special events and
-            giveaways available only to referral code users.
+            🚀 Exclusive Promotions: Participate in special events and giveaways
+            available only to referral code users.
           </li>
         </ul>
         <a
@@ -383,13 +387,37 @@ tr:hover {
     </div>
     <br />
     <div class="social-icons">
-  <h2>Follow MEXC on Social Media</h2>
-  <a href="https://x.com/MEXC_Official" target="_blank" class="fab fa-twitter" aria-label="Follow us on Twitter"></a>
-  <a href="https://www.facebook.com/mexcofficial" target="_blank" class="fab fa-facebook" aria-label="Follow us on Facebook"></a>
-  <a href="https://www.instagram.com/mexc_official/" target="_blank" class="fab fa-instagram" aria-label="Follow us on Instagram"></a>
-  <a href="https://www.linkedin.com/company/mexcofficial/" target="_blank" class="fab fa-linkedin" aria-label="Follow us on LinkedIn"></a>
-  <a href="https://www.reddit.com/r/MEXC_official/" target="_blank" class="fab fa-reddit" aria-label="Join us on Reddit"></a>
-</div>
-
+      <h2>Follow MEXC on Social Media</h2>
+      <a
+        href="https://x.com/MEXC_Official"
+        target="_blank"
+        class="fab fa-twitter"
+        aria-label="Follow us on Twitter"
+      ></a>
+      <a
+        href="https://www.facebook.com/mexcofficial"
+        target="_blank"
+        class="fab fa-facebook"
+        aria-label="Follow us on Facebook"
+      ></a>
+      <a
+        href="https://www.instagram.com/mexc_official/"
+        target="_blank"
+        class="fab fa-instagram"
+        aria-label="Follow us on Instagram"
+      ></a>
+      <a
+        href="https://www.linkedin.com/company/mexcofficial/"
+        target="_blank"
+        class="fab fa-linkedin"
+        aria-label="Follow us on LinkedIn"
+      ></a>
+      <a
+        href="https://www.reddit.com/r/MEXC_official/"
+        target="_blank"
+        class="fab fa-reddit"
+        aria-label="Join us on Reddit"
+      ></a>
+    </div>
   </body>
 </html>
