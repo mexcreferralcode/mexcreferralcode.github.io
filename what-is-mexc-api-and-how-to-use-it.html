@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Learn about MEXC API, how it works, how to use it effectively, and the benefits of using mexc-thehub referral code. Get technical insights and explore integration examples."
+    />
+    <meta
+      name="keywords"
+      content="MEXC API, mexc-thehub, Crypto API, MEXC Integration, Trading Bot MEXC, API Key Security, MEXC REST API, MEXC WebSocket"
+    />
+    <meta name="author" content="mexcreferralcode.github.io" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is MEXC API and How to Use It? | Use Code mexc-thehub</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta
+      name="google-site-verification"
+      content="_xOxqVSxN6Lj2RuIsi31Cobq6iFqc6v9trlxKE8vPEM"
+    />
+    <meta name="yandex-verification" content="8a7655e8be730914" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style>
+            /* General Styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #1C1C1C; /* Dark background */
+                color: #FFFFFF;
+            }
+            h1, h2, h3, h4, p, ul, ol {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+            /* Header */
+            header {
+                background-color: #002F6C; /* MEXC blue */
+                color: white;
+                padding: 15px 0;
+                text-align: center;
+            }
+
+            /* Navigation Bar */
+            nav {
+                background-color: #003B73; /* Darker MEXC blue */
+                overflow: hidden;
+                margin-top: 10px;
+            }
+            nav a {
+                color: white;
+                padding: 14px 20px;
+                text-align: center;
+                text-decoration: none;
+                float: left;
+                display: block;
+            }
+            nav a:hover {
+                background-color: #000000; /* Dark hover effect */
+            }
+
+            /* Hero Section */
+            .hero-section {
+                background-color: #003B73; /* MEXC blue */
+                color: white;
+                padding: 50px 0;
+                text-align: center;
+            }
+            .hero-section h1 {
+                font-size: 2.5rem;
+                margin-bottom: 15px;
+            }
+            .hero-section p {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+            }
+
+            /* Content Section */
+            .content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 30px;
+                background-color: #1C1C1C; /* Dark background */
+            }
+            .section {
+          width: 100%;
+          max-width: 400px;
+          margin: 15px;
+          padding: 20px;
+          background-color: #222222;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+      }
+            .section h2 {
+                color: #00A9E1; /* Light blue text for section titles */
+            }
+            .cta-btn {
+          display: block;
+          width: 90%;
+          max-width: 400px;
+          padding: 15px;
+          background-color: #00A9E1; /* Light blue button */
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1.1rem;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+            .cta-btn:hover {
+                background-color: #0078A0; /* Darker blue on hover */
+            }
+
+            /* Table Styles */
+      table {
+          width: 100%;
+          max-width: 800px;
+          margin: 20px auto;
+          border-collapse: collapse;
+          background-color: #222222;
+          table-layout: auto;
+      }
+
+      th, td {
+          padding: 10px;
+          text-align: left;
+          border: 1px solid #444444;
+          word-wrap: break-word;
+      }
+
+      th {
+          background-color: #003B73;
+          color: white;
+      }
+
+      tr:nth-child(even) {
+          background-color: #2C2C2C;
+      }
+
+      tr:hover {
+          background-color: #3A3A3A;
+      }
+
+      /* Responsive */
+      @media (max-width: 600px) {
+          table {
+              width: 100%;
+              font-size: 14px;
+          }
+
+          th, td {
+              padding: 8px;
+          }
+      }
+
+            /* Social Icons */
+            .social-icons {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .social-icons a {
+                color: white;
+                font-size: 2rem;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            .social-icons a:hover {
+                color: #00A9E1; /* Light blue on hover */
+            }
+
+            /* Responsive Styles */
+            @media (max-width: 768px) {
+                .content {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .section {
+                    width: 80%;
+                }
+                .hero-section h1 {
+                    font-size: 2rem;
+                }
+                .hero-section p {
+                    font-size: 1rem;
+                }
+            }
+            .center-img {
+          display: block;
+          margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Join MEXC and Save on Trading Fees</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="MEXC-Guides.html">MEXC Guides</a>
+      <a href="MEXC-Events.html">MEXC Events</a>
+    </nav>
+
+    <div class="hero-section">
+      <h1>Start Trading with MEXC Today!</h1>
+      <p>
+        Use the code "mexc-thehub" to get exclusive discounts on trading fees
+        and other amazing benefits.
+      </p>
+      <a
+        href="https://www.mexc.com/en-GB/register?inviteCode=mexc-thehub"
+        class="cta-btn"
+        target="_blank"
+        >Sign Up Now</a
+      >
+    </div>
+    <br />
+    <img src="images/logo.png" alt="MEXC Logo" width="200" class="center-img" />
+    <br />
+    <h1>What is MEXC API and How to Use It?</h1>
+
+    <p>
+      The <strong>MEXC API</strong> is a powerful suite of programmatic tools
+      that allows developers and advanced traders to interact with the MEXC
+      exchange programmatically. Using both <strong>RESTful</strong> and
+      <strong>WebSocket</strong> APIs, users can automate trading, fetch market
+      data, manage funds, and much more.
+    </p>
+
+    <p>
+      By integrating the referral code <strong>mexc-thehub</strong> during
+      account registration, users can benefit from additional discounts,
+      rebates, and affiliate support tools while using MEXC APIs.
+    </p>
+
+    <h2>API Types Offered by MEXC</h2>
+    <ul>
+      <li>
+        <strong>REST API:</strong> Used for order management, trading, account
+        data, and public market info.
+      </li>
+      <li>
+        <strong>WebSocket API:</strong> Real-time order book, trades, and
+        account updates via persistent connection.
+      </li>
+      <li>
+        <strong>Copy Trade & Futures API:</strong> Dedicated endpoints for copy
+        trading and futures markets.
+      </li>
+    </ul>
+
+    <h2>How to Get Started with MEXC API</h2>
+    <ol>
+      <li>
+        <a
+          href="https://www.mexc.com/register?inviteCode=mexc-thehub"
+          target="_blank"
+          style="color: #ffa400;"
+          >Register on MEXC with code <strong>mexc-thehub</strong></a
+        >.
+      </li>
+      <li>
+        Log into your account and navigate to the
+        <em>API Management</em> section.
+      </li>
+      <li>
+        Click <strong>Create API</strong>, name your key, and whitelist IPs if
+        needed for security.
+      </li>
+      <li>
+        Copy the <strong>API Key</strong> and <strong>Secret Key</strong> (store
+        them securely).
+      </li>
+      <li>
+        Start integrating using MEXC’s
+        <a
+          href="https://mxcdevelop.github.io/apidocs/contract_v1_en/#public-interface"
+          target="_blank"
+          style="color: #ffa400;"
+          >official API documentation</a
+        >.
+      </li>
+    </ol>
+
+    <h2>Sample Use Cases</h2>
+    <ul>
+      <li>
+        High-frequency trading bots (HFT) for arbitrage and market making.
+      </li>
+      <li>Portfolio management systems that automate asset allocations.</li>
+      <li>Market data dashboards displaying MEXC price feeds.</li>
+      <li>Mobile or desktop apps integrating MEXC user trading features.</li>
+    </ul>
+
+    <h2>Benefits of Using <code>mexc-thehub</code> with MEXC API</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Standard User</th>
+          <th>With Code <code>mexc-thehub</code></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Trading Fee Discount</td>
+          <td>No</td>
+          <td>Yes (up to 50%)</td>
+        </tr>
+        <tr>
+          <td>API Access Limits</td>
+          <td>Default</td>
+          <td>Priority Queues</td>
+        </tr>
+        <tr>
+          <td>Affiliate Reporting Tools</td>
+          <td>Not Available</td>
+          <td>Full Access</td>
+        </tr>
+        <tr>
+          <td>Referral Rebates</td>
+          <td>None</td>
+          <td>Earn Commissions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Technical Highlights</h2>
+    <ul>
+      <li>
+        <strong>Rate Limits:</strong> REST API supports up to 20 requests/sec,
+        WebSocket allows 240 connections/sec.
+      </li>
+      <li>
+        <strong>Authentication:</strong> HMAC SHA256 for signing requests
+        securely.
+      </li>
+      <li>
+        <strong>Market Types:</strong> Supports Spot, Futures, ETF, and Copy
+        Trading APIs.
+      </li>
+      <li>
+        <strong>Security:</strong> Optional IP whitelist, 2FA enforced for API
+        key creation.
+      </li>
+      <li>
+        <strong>Error Handling:</strong> JSON responses include precise error
+        codes for debugging.
+      </li>
+    </ul>
+
+    <p>
+      🔗
+      <a
+        href="https://www.mexc.com/register?inviteCode=mexc-thehub"
+        target="_blank"
+        style="color: #ffa400;"
+        >Sign up on MEXC with referral code <strong>mexc-thehub</strong></a
+      >
+      to unlock extended API functionality, discounts, and referral tracking
+      tools.
+    </p>
+
+    <div class="social-icons">
+      <h2>Follow MEXC on Social Media</h2>
+      <a
+        href="https://x.com/MEXC_Official"
+        target="_blank"
+        class="fab fa-twitter"
+        aria-label="Follow us on Twitter"
+      ></a>
+      <a
+        href="https://www.facebook.com/mexcofficial"
+        target="_blank"
+        class="fab fa-facebook"
+        aria-label="Follow us on Facebook"
+      ></a>
+      <a
+        href="https://www.instagram.com/mexc_official/"
+        target="_blank"
+        class="fab fa-instagram"
+        aria-label="Follow us on Instagram"
+      ></a>
+      <a
+        href="https://www.linkedin.com/company/mexcofficial/"
+        target="_blank"
+        class="fab fa-linkedin"
+        aria-label="Follow us on LinkedIn"
+      ></a>
+      <a
+        href="https://www.reddit.com/r/MEXC_official/"
+        target="_blank"
+        class="fab fa-reddit"
+        aria-label="Join us on Reddit"
+      ></a>
+    </div>
+  </body>
+</html>
